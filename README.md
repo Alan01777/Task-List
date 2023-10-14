@@ -4,7 +4,7 @@ A aplicação foi feita em laravel e utiliza o banco de dados Mariadb, nginx (re
 # Configuração do APP
 1. Clone o repositório
 ```bash
-git clone https://github.com/Alan01777/Teste-SCS.git
+git clone https://github.com/Alan01777/Task-List.git
 cd Teste-SCS
 ```
 
