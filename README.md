@@ -5,7 +5,7 @@ A aplicação foi feita em laravel e utiliza o banco de dados Mariadb, nginx (re
 1. Clone o repositório
 ```bash
 git clone https://github.com/Alan01777/Task-List.git
-cd Teste-SCS
+cd Task-List
 ```
 
 2. Crie o arquivo ```.env``` (veja a próxima seção para configurar o ```.env```)
