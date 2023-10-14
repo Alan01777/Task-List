@@ -8,12 +8,12 @@ git clone https://github.com/Alan01777/Teste-SCS.git
 cd Teste-SCS
 ```
 
-2. Crie o arquivo .env (veja a próxima seção para configurar o .env)
+2. Crie o arquivo ```.env``` (veja a próxima seção para configurar o ```.env```)
 ```bash
 cp .env.example .env
 ```
 
-3. Configure o .env que foi gerado no comando anterior usando o modelo abaixo como exemplo:
+3. Configure o ```.env``` que foi gerado no comando anterior usando o modelo abaixo como exemplo:
 ```bash
 DB_CONNECTION=mysql
 DB_HOST=mysql
