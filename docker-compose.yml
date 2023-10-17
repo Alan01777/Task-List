@@ -17,7 +17,7 @@ services:
             - ./.docker/mysql:/var/lib/mysql
             #- dbdata:/var/lib/mysql
         networks:
-            - scs-teste
+            - Task-List
 
     laravel-app:
         build:
@@ -29,7 +29,7 @@ services:
             - .:/var/www/html
         working_dir: /var/www/html
         networks:
-            - scs-teste
+            - Task-List
         depends_on:
             - mysql
 
@@ -44,7 +44,7 @@ services:
             - ./.docker/nginx:/etc/nginx/conf.d/
         working_dir: /var/www/html
         networks:
-            - scs-teste
+            - Task-List
         depends_on:
             - laravel-app
 
@@ -55,8 +55,8 @@ services:
         ports:
             - 8080:8080
         networks:
-            - scs-teste
+            - Task-List
 
 networks:
-    scs-teste:
+    Task-List:
         driver: bridge
