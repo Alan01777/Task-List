@@ -1,9 +1,10 @@
 @extends('layouts.app')
 
-@section('title', $task->title)
 
 @section('content')
 <div class="p-4 bg-white rounded-lg shadow-lg">
+    <h1 class="text-4xl font-semibold mb-6 text-center">{{ $task->title }}</h1>
+
     <p class="text-lg mb-4">Description: {{ $task->description }}</p>
 
     @if ($task->long_description)
